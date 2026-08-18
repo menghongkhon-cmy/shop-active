@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Greenfield High School</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="brand"><span class="crest">G</span> Greenfield High</a>
+    <button class="menu-btn" aria-label="Toggle menu">☰</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="page-hero">
+  <h1>Contact Us</h1>
+  <p>We'd love to hear from you. Reach out any time.</p>
+</div>
+
+<main>
+  <section class="grid grid-2">
+    <div>
+      <p class="eyebrow">Get in Touch</p>
+      <h2>Send us a message</h2>
+      <form id="contact-form">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" required placeholder="Jane Doe">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required placeholder="jane@example.com">
+
+        <label for="message">Message</label>
+        <textarea id="message" required placeholder="How can we help?"></textarea>
+
+        <button type="submit" class="btn" style="margin-top:1.2rem;">Send Message</button>
+        <div class="form-msg success" id="form-msg">Thanks! We'll get back to you within one business day.</div>
+      </form>
+    </div>
+
+    <div>
+      <p class="eyebrow">Visit or Call</p>
+      <h2>School Office</h2>
+      <ul class="info-list">
+        <li>123 Learning Lane, Springfield, ST 00000</li>
+        <li>(555) 123-4567</li>
+        <li>info@greenfieldhigh.edu</li>
+        <li>Office Hours: Mon–Fri, 8:00 AM – 4:00 PM</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Greenfield High School · 123 Learning Lane, Springfield</p>
+  <p>(555) 123-4567 · <a href="mailto:info@greenfieldhigh.edu">info@greenfieldhigh.edu</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
